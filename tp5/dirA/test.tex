@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+
+%\usepackage{times}
+
+\newcommand{\texttiny}[1]{{\tiny #1}}
+\newcommand{\textscriptsize}[1]{{\scriptsize #1}}
+\newcommand{\textfootnotesize}[1]{{\footnotesize #1}}
+\newcommand{\textsmall}[1]{{\small #1}}
+\newcommand{\textnormalsize}[1]{{\normalsize #1}}
+\newcommand{\textlarge}[1]{{\large #1}}
+\newcommand{\textLarge}[1]{{\Large #1}}
+\newcommand{\textLARGE}[1]{{\LARGE #1}}
+\newcommand{\texthuge}[1]{{\huge #1}}
+\newcommand{\textHuge}[1]{{\Huge #1}}
+
+\begin{document}
+%\fontsize{1pt}{0.5em}\selectfont Ce texte est plus petit que tiny
+%\fontsize{40pt}{1em}{Ce texte est plus grand que huge}
+
+\section{Exercice 3:}
+\begin{enumerate}
+
+\item
+Je suis en police par défaut. 
+\textsf{Je suis en police sans empattement.}
+\texttt{Je suis en police à chasse fixe.}
+\textrm{Je suis en police roman, explicitement.}
+
+\item
+\begin{enumerate}
+\item Je ne change pas la police par défaut\ldots
+\item \ldots qu'à partir de \textsf{maintenant, pour une police sans empattement \ldots}
+\item \textsf{\ldots qui continue un petit moment \ldots}
+\item \textsf{\ldots avant d’être finalement changée \ldots}
+\item \ldots pour la police par défaut \ldots
+\item \ldots puis pour \texttt{la police à chasse fixe \ldots}
+\item \texttt{\ldots qui continue \ldots}
+\item \texttt{\ldots encore et encore, mais pas jusqu’au bout.}
+Après la liste, je retrouve la police par défaut.
+\end{enumerate}
+\end{enumerate}
+\section{Exercice 4:}
+\begin{enumerate}
+\item {\Huge u}{\LARGE n}{\large i}{\normalsize e}{\small r}{\footnotesize s}{\scriptsize i}{\tiny t}{\tiny é}
+\quad
+{\Huge C}{\LARGE l}{\Large e}{\large r}{\normalsize m}{\small o}{\footnotesize n}{\scriptsize t}
+{-}
+{\Huge A}{\LARGE u}{\Large v}{\large e}{\normalsize r}{\small g}{\footnotesize n}{\scriptsize e} \quad {\small !}
+
+\item {\Huge u}{\LARGE n}{\large i}{\normalsize e}{\small r}{\footnotesize s}{\scriptsize i}{\tiny t}{\tiny é}
+\quad
+{\Huge C}{\LARGE l}{\Large e}{\large r}{\normalsize m}{\small o}{\footnotesize n}{\scriptsize t}
+{-}
+{\Huge A}{\LARGE u}{\Large v}{\large e}{\normalsize r}{\small g}{\footnotesize n}{\scriptsize e} \quad {\small !}
+
+Ceci est un texte normal, sans changement de taille.
+
+\item 
+\texttiny{tiny} 
+\textscriptsize{scriptsize} 
+\textfootnotesize{footnotesize} 
+\textsmall{small} 
+\textnormalsize{normalsize} 
+\textlarge{large} 
+\textLarge{Large} 
+\textLARGE{LARGE} 
+\texthuge{huge} 
+\textHuge{Huge} – voilà mes différentes tailles.
+
+\item
+
+\end{enumerate}
+\end{document}
